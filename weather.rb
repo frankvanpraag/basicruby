@@ -5,8 +5,6 @@
 # It first gets the latitude and longitude of the city using the geocoding API.
 # Then it gets the weather for the city using the forecast API.
 # It prints the weather to the console.   
-# MinorX: added by FVP late to the party after minory was already pushed to fix/minory
-
 
 require "bundler/setup"
 require "httparty"
