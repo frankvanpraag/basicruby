@@ -13,8 +13,8 @@ require "httparty"
 
 city = ARGV.first
 unless city
-  warn "Usage: ruby weather.rb <city> (defaulting to Sydney)"
-  city = "Sydney"
+  warn "Usage: ruby weather.rb <city>"
+  city = "Canberra"   # Default choice
 end
 
 geo = HTTParty.get(
