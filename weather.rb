@@ -11,8 +11,8 @@ require "httparty"
 
 city = ARGV.first
 unless city
-  warn "Usage: ruby weather.rb <city>"
-  exit 1
+  warn "Usage: ruby weather.rb <city> (defaulting to Sydney)"
+  city = "Sydney"
 end
 
 geo = HTTParty.get(
