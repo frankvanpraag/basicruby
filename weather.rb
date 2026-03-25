@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
+# MinorX: added by FVP late to the party
 # This script uses the Open-Meteo API to get the weather for a given city.
 # It first gets the latitude and longitude of the city using the geocoding API.
 # Then it gets the weather for the city using the forecast API.
 # It prints the weather to the console.   
+# MinorX: added by FVP late to the party after minory was already pushed to fix/minory
 
 
 require "bundler/setup"
